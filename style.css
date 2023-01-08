@@ -18,8 +18,7 @@
 .header{
     text-align: center;
     flex-direction: column
-}
-.img{
+
 }
 .a{
     position: absolute;
@@ -29,7 +28,7 @@
     top: 182px;
     flex-direction: column;
 }
-.p{
+.naf{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 500;
@@ -37,5 +36,25 @@
     line-height: 31px;
     flex-direction: row-reverse;
 
+}
+.b{
+    font: size 40px;
+}
+@media(max-width: 1242px){
+    .html{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:  2048px){
+    .html{
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 5000px){
+    .html{
+        font-size: 80px;
+    }
 }
 
